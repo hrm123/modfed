@@ -6,6 +6,7 @@ module.exports = withModuleFederationPlugin({
 
   exposes: {
     './Component': './projects/profesnl/src/app/app.component.ts',
+    './Module': './projects/profesnl/src/app/profesnl/profesnl.module.ts'
   },
 
   shared: {
