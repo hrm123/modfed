@@ -10,7 +10,10 @@ const routes: Routes =  [
   },
   {
     path: 'academix',
-    loadChildren: () => import('academix/Module').then(m => m.AcademixModule)
+    loadChildren: () => import('academix/Module').then(m => {
+      console.log('academix module', m);
+      return m.AcademixModule;
+    } )
   },
   {
     path: 'profesnl',
