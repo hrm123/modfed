@@ -3,6 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { MaterialModule } from './material.module';
 import { MyResumeComponent } from './my-resume/my-resume.component';
 
 @NgModule({
@@ -12,7 +13,8 @@ import { MyResumeComponent } from './my-resume/my-resume.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    MaterialModule
   ],
   providers: [],
   bootstrap: [AppComponent]

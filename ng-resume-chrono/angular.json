@@ -30,7 +30,8 @@
 							"projects/profesnl/src/assets"
 						],
 						"styles": [
-							"projects/profesnl/src/styles.scss"
+							"projects/profesnl/src/styles.scss",
+							"../node_modules/@angular/material/prebuilt-themes/deeppurple-amber.css"
 						],
 						"scripts": [],
 						"extraWebpackConfig": "projects/profesnl/webpack.config.js",
