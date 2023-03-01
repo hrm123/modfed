@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { MaterialModule } from './material.module';
 import { MyResumeComponent } from './my-resume/my-resume.component';
 
 const routes: Routes =  [
@@ -22,7 +23,7 @@ const routes: Routes =  [
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes)],
+  imports: [RouterModule.forRoot(routes), MaterialModule],
   exports: [RouterModule]
 })
 export class AppRoutingModule { }
