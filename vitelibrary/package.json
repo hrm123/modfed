@@ -1,0 +1,25 @@
+{
+  "//" : "when this npm library is imported return the vitelib.js file. when this npm library is imported without a specifier return the iife file. when this npm library is 'require' then return the cjs file.",
+  "name": "vitelibrary",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "main": "dist/vitelib.umd.cjs",
+  "module": "dist/vitelib.js",
+  "exports": {
+    ".": {
+      "import": "./dist/vitelib.js", 
+      "default": "./dist/vitelib.iife.js",
+      "require": "./dist/vitelib.cjs"
+    }
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "jquery": "^3.7.1",
+    "vite": "^7.1.7"
+  }
+}

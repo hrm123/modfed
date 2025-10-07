@@ -1,0 +1,1 @@
+export default ' text from vite library'
