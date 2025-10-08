@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk=self.webpackChunk||[]).push([[161],{161:(e,t,s)=>{s.r(t),s.d(t,{default:()=>u});const u="text from remote"}}]);

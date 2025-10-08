@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk=self.webpackChunk||[]).push([[97,102,161,792],{97:(e,t,n)=>{n.r(t);var c=n(161);(0,n(102).createElem)("div",c.default)},102:(e,t,n)=>{function c(e,t){const n=document.createElement(e);n.innerText=t,document.body.append(n)}n.r(t),n.d(t,{createElem:()=>c})},161:(e,t,n)=>{n.r(t),n.d(t,{default:()=>c});const c="text from remote"}}]);
