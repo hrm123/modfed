@@ -1,1 +1,3 @@
-export default "text from remote"
+import msg from 'shared'
+ 
+export default 'REMOTE: Info module says ' + msg

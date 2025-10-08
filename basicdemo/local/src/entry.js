@@ -1,3 +1,5 @@
+import('shared')
+
 import { createElem } from './createElem.js'
 
 createElem('p', 'Local package');

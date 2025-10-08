@@ -21,7 +21,8 @@ module.exports = {
                 './info': './info.js',
                 './createElem': './createElem.js',
                 './entry': './entry.js'
-            }
+            },
+            shared: ['shared'] // shared libraries (avoid duplication in host and remote)
         })
     ]
 }
